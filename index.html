@@ -5,16 +5,16 @@
 	  	<title>Reloj digital</title>
 	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	  	<meta name="viewport" content="width=device-width, initial-scale=1">
-	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
 	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
 	  	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 	  	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
 		  <link rel="stylesheet" href="css/main.css">
 	  	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-	  	<link rel="stylesheet" href="css/icomoon.css" type="text/css">
+	  	
       <!-- Vincula los CSS que faltan -->
 	</head>
 	<body onload="mueveReloj()"> 
+
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-lg-6">
@@ -26,15 +26,29 @@
                 </form>
               </div> 
                 <select name="pais" tabindex="0" id="pais" onChange="javascirpt:selecionapais(this);" onMouseWheel=return(false)>
-                  <option value="0">Mexico</option>
-                  <option value="5">Lima</option>
+                  <option value="0">México</option>
+                  <option value="1">Lima</option>
+                  <option value="2">Chicago</option>
+                  <option value="3">Sau Paulo</option>
+                  <option value="4">Caracas</option>
+                  <option value="5">Brasilia</option>
+                  <option value="6">Bogotá</option>
+                  <option value="7">Guayaquil</option>
+                  <option value="8">Quito</option>
+                  <option value="9">Panamá</option>
+
                 </select>
+                <div class="box-fecha">
+                  <p id="phora">Fecha</p>
+                </div>
           </div>
+
+          
+
         </div>
       </div>
     </div>
 </body>
     <script src="js/main.js"></script>
-    
     <!-- Plugin JavaScript -->
 </html>
