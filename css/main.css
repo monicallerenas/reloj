@@ -1,0 +1,21 @@
+.box{
+	background-color: #ffcccc;
+	border: solid 2px #ff80aa;
+	border-radius: 5px;
+	width: 100%;
+	height: 500px;
+}
+.box-reloj{
+	border-color: solid 2px gray;
+	margin-top:20%;
+	margin-left: 40%;
+}
+#pais{
+	margin-left: 40%;
+}
+.img-reloj{
+	width: 50%;
+	height: 200px;
+	margin-top: 5%;
+	margin-left: 25%;
+}

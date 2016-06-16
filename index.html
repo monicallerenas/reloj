@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<meta charset="utf-8">
+	  	<title>Reloj digital</title>
+	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
+	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+	  	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	  	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+		  <link rel="stylesheet" href="css/main.css">
+	  	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	  	<link rel="stylesheet" href="css/icomoon.css" type="text/css">
+      <!-- Vincula los CSS que faltan -->
+	</head>
+	<body onload="mueveReloj()"> 
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-6">
+          <div class="box">
+            <img class="img-reloj" src="image/reloj.png">
+              <div class="box-reloj">
+                <form name="form_reloj"> 
+                  <input type="text" name="reloj" size="10"> 
+                </form>
+              </div> 
+                <select name="pais" tabindex="0" id="pais" onChange="javascirpt:selecionapais(this);" onMouseWheel=return(false)>
+                  <option value="0">Mexico</option>
+                  <option value="5">Lima</option>
+                </select>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+    <script src="js/main.js"></script>
+    
+    <!-- Plugin JavaScript -->
+</html>
